@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image{
+    height: 120px;
+    width: 170px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.heading-bio{
+    float: left;
+    padding: 35px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.picc{
+    color: #11999e;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact ul li{
+    list-style-type: none;
+}
+
+.header-contact ul li a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold
+}
+.header-contact ul li a:hover{
+    text-decoration: underline;
+    color: tomato;
+    font-weight: bolder;
+}
+
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.content{
+    margin: 30px;
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+}
+
+.right-div{
+    float: left;
+    width: 70%;
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.cmul1{
+    padding: 5px;
+    margin-left: 15px;
+    float: right;
+}
+
+.right-div .bsc{
+    float: left;
+    width: 50%;
+}
+
+.right-div .bsc p a{
+    text-decoration: none;
+}
+
+.right-div .ssc-hsc{
+    float: left;
+    width: 50%;
+}
+
+.right-div .ssc-hsc p a{
+    text-decoration: none;
+}
+
+.rf1{
+    float: left;
+    width: 50%;
+}
+
+.rf2{
+    float: left;
+    width: 50%;
+}
+
+.right-div .rf1 p a{
+    text-decoration: none;
+}
+
+.right-div .rf2 p a{
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-container a, .bottom-container p{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.bottom-container a:hover{
+    color: blue;
+    text-decoration: underline;
+}
